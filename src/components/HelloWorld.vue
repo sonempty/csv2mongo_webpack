@@ -1,5 +1,5 @@
 <template>
-<div class="form">
+<div>
   <form @submit.prevent="login">
     Email:<br>
     <input type="email" v-model="user.email"/><br>
